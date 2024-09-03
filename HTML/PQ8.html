@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>level3pq1</title>
+</head>
+<body>
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="google search" name="q" />
+        <button>search</button>
+    </form>
+
+    <form action="/google">
+        <input type="checkbox" name="age" id="age"checked/>
+        <label for="age">I am 18+ </label>
+    </form>
+
+    <hr>
+    <form>
+        <input type="radio" name="fruit" id="apple" value="apple" />
+        <label for="apple">Apple</label>
+        <input type="radio" name="fruit" id="mango" value="mango" />
+        <label for="mango">Mango</label>
+        <input type="radio" name="fruit" id="banana" value="banana" />
+        <label for="banana">Banana</label>
+        <button>submit</button>
+        <hr>
+        <form>
+            <div>
+                Choose your profession:
+                <select name="profession" id="profession">
+                    <option>select your option</option>
+                    <option value="stud">student</option>
+                    <option value="dev">devloper</option>
+                    <option value="teach">teacher</option>
+                </select>
+                <button>submit</button>
+            </div>
+
+            <hr>
+            <div>
+                <label for ="volume">select your volume</label>
+                <input type="range" min="0" max="100" name="vol"/>
+            </div>
+            <button>submit</button>
+
+            <div>
+                <label for="feedback">Please provide your feedback:</label>
+                <textarea id="feedback" row="6" col="5"></textarea>
+            </div>
+            <button>submit</button>
+        </form>
+    </form>
+    
+</body>
+</html>
